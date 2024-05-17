@@ -3,7 +3,7 @@ import numpy as n
 import pandas as p
 
 s.title("Top 10 Countries From 70s till Now")
-uf = r'wp.csv'
+uf = r'pages/wp.csv'
 
 if uf is not None:
     sc = [
