@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import streamlit as s
 
 s.title("Top 10 Countries From 70s till Now")
-uf = r'C:/Users/hhoffman25\Documents/HOPES/Population/pages/wp.csv'
+uf = r'wp.csv'
 year = s.selectbox
 
 if uf is not None:
