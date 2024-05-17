@@ -7,7 +7,7 @@ uf = r'pages/wp.csv'
 year = s.selectbox
 
 if uf is not None:
-    sc = ['Country', year]
+    sc = ['Country', '1970 Population']
     df = pd.read_csv(uf, names=sc)
     top5 = df.nsmallest(10, '1970 Population')
 
