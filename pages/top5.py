@@ -4,7 +4,7 @@ import pandas as p
 import matplotlib.pyplot as pl
 
 s.title("Top 5 Largest Countries")
-uf = r'C:/Users/hhoffman25\Documents/HOPES/Population/pages/wp.csv'
+uf = r'wp.csv'
 
 if uf is not None:
     df = p.read_csv(uf)
