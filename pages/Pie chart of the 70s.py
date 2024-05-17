@@ -14,7 +14,7 @@ if uf is not None:
 
     df.set_index('Country', inplace=True)  
 
-    df.plot(kind='pie', y=top5, figsize=(8, 8), autopct='%1.1f%%', startangle=140)
+    df.plot(kind='pie', y=top5['1970 Population'], figsize=(8, 8), autopct='%1.1f%%', startangle=140)
     plt.title('Population Distribution in 1970')
     plt.ylabel('')  
     plt.show()
